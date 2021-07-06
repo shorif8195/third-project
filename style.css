@@ -1,0 +1,46 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 50px;
+}
+header div{
+    float: left;
+    position: relative;
+}
+header .logo{
+    padding: 20px;
+    margin-left: 300px;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 300px;
+    padding: 20px;
+    
+
+
+}
+header .nav ul li a{
+    text-transform: uppercase;
+    
+    text-decoration: none;
+    color:rgb(83, 78, 78);
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+header .nav ul li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+header .nav ul li a:hover{
+    color: #8495FF;
+}
