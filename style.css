@@ -7,6 +7,9 @@
 }
 header{
     width: 50px;
+    height: 100px;
+    background-color: white;
+   
 }
 header div{
     float: left;
@@ -44,3 +47,54 @@ header .nav ul li{
 header .nav ul li a:hover{
     color: #8495FF;
 }
+/*first section start*/
+
+.half1 {
+    width: 40%;
+  float: left;
+  margin: auto;
+  align-items: center;
+  margin-left: 300px;
+  margin-top:200px;
+  margin-right: 20px;
+
+
+}
+.half2{
+    max-width: 100%;
+    margin: auto;
+}
+.first-section {
+    width: 100%;
+    height: 700px;
+    float: left;
+    background-color: whitesmoke;
+   
+}
+.half1 h3{
+    color: gray;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.half1 h1{
+    color: rgb(70, 58, 58);
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.half1 p{
+    color: rgb(173, 162, 162);
+}
+.half1 button{
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(125, 55, 255),rgb(43, 191, 250));
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.half1 button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
