@@ -6,10 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    width: 50px;
-    height: 100px;
+    width: 100%;
+    height:70px;
     background-color: white;
-   
+    position: fixed;
+    top: 0;
 }
 header div{
     float: left;
@@ -55,26 +56,33 @@ header .nav ul li a:hover{
   margin: auto;
   align-items: center;
   margin-left: 300px;
-  margin-top:200px;
+  margin-top:260px;
   margin-right: 20px;
 
 
 }
+.half1 p{
+    width: 80%;
+}
 .half2{
     max-width: 100%;
-    margin: auto;
+    height: auto;
+    
+    margin-top: 80px;
 }
 .first-section {
     width: 100%;
     height: 700px;
     float: left;
     background-color: whitesmoke;
+    margin-top:70px ;
    
 }
 .half1 h3{
     color: gray;
     font-weight: normal;
     margin-bottom: 20px;
+    font-size: 15px;
 }
 .half1 h1{
     color: rgb(70, 58, 58);
@@ -87,7 +95,7 @@ header .nav ul li a:hover{
 }
 .half1 button{
     padding: 10px 20px;
-    background: linear-gradient(to right,rgb(125, 55, 255),rgb(43, 191, 250));
+    background: linear-gradient(to right,#8392FF,#62BDFC);
     margin-top: 20px;
     border: none;
     cursor: pointer;
@@ -97,4 +105,133 @@ header .nav ul li a:hover{
     font-weight: bold;
     text-decoration: none;
 }
+/* first section end*/
 
+.section-2{
+
+    width: 100%;
+    height: 500px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.section-2 div{
+    
+}
+
+.half3{
+    margin-left: 200px;
+}
+.half4{
+    margin-bottom: 150px;
+}
+.half4 h1{
+    font-size: 30px;
+}   
+
+/*second section end*/
+
+/*third section satart*/
+
+.section-3{
+    width: 100%;
+    height: 500px;
+   padding-top: 50px;
+
+}
+section.main-service{
+    width: 100%;
+    height: 700px;
+   
+}
+.first-text{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+   
+
+}
+.first-text p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0,0,0,0.5 );
+}
+.first-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.services{
+    width:80%;
+    margin: auto;}
+.services div{
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+  
+}
+.services div:hover{
+    transform: translateY(-5px);
+}
+.services i{
+    font-size: 35px;
+
+  
+}
+.services i:hover{
+    color: #62BDFC;
+}
+.services h1{
+    font-size: 20px;
+    padding:30px
+}
+.services h1:hover{
+    color: #8392FF;
+}
+.services div p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color:rgb(0, 0, 0, 0.5) ;
+}
+.material-icons-outlined{
+    font-size: 31px;
+    
+}
+.material-icons-outlined:hover{
+    color: #62BDFC;
+}
+/*section tree end*/
+
+/*section four start*/
+
+.section-4{
+    width: 100%;
+    height:300px;
+    background: linear-gradient(to right,#8392FF,#62BDFC);
+    
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 1534px;
+   
+    
+   
+  
+}
+.section-4 div{
+    float: left;
+   margin-left: 250px;
+   color: white;
+   margin-top: 130px;
+}
