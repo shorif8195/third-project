@@ -11,6 +11,7 @@ header{
     background-color: white;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 header div{
     float: left;
@@ -47,6 +48,19 @@ header .nav ul li{
 }
 header .nav ul li a:hover{
     color: #8495FF;
+}
+.checkbtn{
+    display: none;
+    font-size: 25px;
+    float: right;
+    margin-right: -280px;
+    cursor: pointer;
+    
+
+}
+#check{
+    display: none;
+    
 }
 /*first section start*/
 
@@ -99,6 +113,10 @@ header .nav ul li a:hover{
     margin-top: 20px;
     border: none;
     cursor: pointer;
+}
+.half1 button:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255,0.5);
+    transition: all 0.5s ease-in ;
 }
 .half1 button a{
     color: white;
@@ -234,4 +252,537 @@ section.main-service{
    margin-left: 250px;
    color: white;
    margin-top: 130px;
+}
+
+/*section four end*/
+
+/*section five start*/
+
+.section-5{
+    width: 100%;
+
+}
+.title{
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+    padding: 100px;
+
+}
+
+.title h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0,0.8);
+}
+.title p{
+    color: gray;
+    margin-top: -10px;
+}
+
+.section-5 .row-1{
+
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+
+}
+.section-5 .row-1 .col-3{
+    width: 380px;
+    height: 340px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 39px;
+    text-align: center;
+}
+.section-5 .row-1 .col-3 h3{
+    padding:10px;
+}
+.section-5 figure{
+    background: linear-gradient(#8392FF,#62BDFC);
+    width: 340px;
+    height: 339px;
+    border-radius: 4%;
+
+}
+.section-5 figure:hover img{
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+}
+/*section five end*/
+/*section six start */
+
+.section-6{
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+    padding:100px 0;
+    background-color: #F9F9FF;
+    margin-bottom: 50px;
+}
+.section-6 .texts{
+    text-align: center;
+    line-height: 40px;
+}
+.section-6 .texts h1{
+    font-size: 40px;
+}
+.section-6 .texts p{
+    color: rgb(0, 0, 0, 0.5);
+}
+.section-6 .row{
+    width: 65%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.section-6 .row .col-4{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.section-6 .row .col-4 .image img{
+    transform: scale(0.5);
+}
+.section-6 .row .col-4 .description{
+    padding-top: 25px;
+    padding-right: 20px;
+    
+}
+.section-6 .row .col-4 .description p{
+    color: rgb(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    
+}
+.section-6 .row .col-4 .description h2{
+    color: rgb(0, 0, 0, 0.9);
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+/*section six end*/
+/*section seven start*/
+
+.section-7{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    padding:100px 0;
+  
+    margin-bottom: 300px;
+}
+.section-7 .texts{
+    text-align: center;
+    line-height: 45px;
+}
+.section-7 .texts h1{
+    font-size: 40px;
+}
+
+.section-7 .texts p{
+    color: rgb(0, 0, 0, 0.5);
+}
+.section-7 .card{
+    width: 65%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color:#F9F9FF ;
+    text-align: center;
+   
+    margin-top: 100px;
+
+}
+.section-7 .card .col-5{
+   width: 25%;
+   height: 550px;
+   padding-left: 20px;
+   padding-top: 20px;
+   transition: 0.5s;
+}
+.section-7 .card .col-5:hover{
+    background: linear-gradient(to right,#8491ff,#63BBFC);
+    transform: scale(1.07);
+    color: white;
+    
+}
+.section-7 .card .col-5 .first{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(132, 144, 255, 0.1);;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.section-7 .card .col-5:hover .first{
+    background: #9AC3FE;
+
+
+}
+.section-7 .card .col-5 .first .second{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F9F9FF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.section-7 .card .col-5:hover .first .second{
+    background: #81B0FD;
+}
+.section-7 .card .col-5 .first .second h1{
+    font-weight: normal;
+}
+.section-7 .card .col-5 h2{
+    font-size: 20px;
+    padding:20px;
+    
+    
+}
+
+.section-7 .card .col-5 p{
+    padding: 10px 0;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.section-7 .card .col-5 h1{
+    font-size: 35px;
+    padding: 10px;
+}
+.section-7 .card .col-5 button{
+    border:none;
+    padding:13px 90px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right,#8491FF,#63BBFC);
+   margin: 20px 0;
+   color: white;
+
+}
+.section-7 .card .col-5:hover button{
+    background: white;
+    color: black;
+}
+
+/*section seven end*/
+/*footer */
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #04091E;
+    margin: 0 auto;
+    padding-bottom: 100px;
+   
+    
+}
+footer .main{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+   padding-left: 100px;
+}
+footer .main .foot1{
+    width: 35%;
+    height: auto;
+    margin-top: 100px;
+    padding-right: 20px;
+
+
+}
+footer .main .foot1 h2{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+ footer .main .foot1 p{
+     color: rgb(95, 93, 93);
+     padding:18px 0;
+ }
+ footer .main .foot1 input{
+     padding: 15px 150px 15px 20px;
+     border: none;
+     outline: none;
+ }
+ footer .main .foot1 button{
+     padding: 15px 17px;
+     outline: none;
+     background-color:#8491FF ;
+     border: none;
+     color: white;
+     margin-left: -5px;
+     
+ }
+ footer .main .foot1 button:hover{
+     cursor: pointer;
+ }
+ footer .main .foot1 a i{
+     color: white;
+     padding: 2px;
+     font-size: 17px;
+ }
+ footer .main .foot1 a i:hover{
+     color: #8495FF;
+ }
+
+ @media (max-width:768px){
+     header{
+         width: 100%;
+         height: auto;
+     }
+     header .logo{
+         margin-left: 40px;
+       
+ }
+    .checkbtn{
+        display: block;
+        
+        
+
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #F9F9FF;
+        top: 54px;
+        
+        left:-200%;
+        transition: all 1s;
+    }
+    header .nav ul li{
+        line-height: 15px;
+        clear: both;
+        margin-top: 15px;
+        
+    }
+    header .nav ul li a{
+        font-size: 17px;
+        text-align: center;
+    }
+    #check:checked  ~ ul{
+        left: 0;
+    }
+}
+
+
+/*media*/
+
+@media (max-width:768px){
+
+    .first-section{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+       
+    }
+    .first-section .half1{
+        width: 80%;
+        float: left;
+        margin: auto;
+        align-items: center;
+        margin-left: 100px;
+        margin-top:160px;
+        margin-right: 20px;
+      
+
+    }
+    .first-section .half1 h1{
+        font-size: 30px;
+    }
+    .first-section .half2{
+        width: 100%;
+        height: auto;
+        margin-left:40px ;
+        margin-top: 80px;
+
+        
+        
+    }
+    .section-2{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 100px;
+    }
+    .section-2 .half2{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+       
+    }
+    .section-2 .half1{
+        width: 80%;
+        height: auto;
+        margin:0  auto;
+        padding-left: 100px;
+    }
+    .section-3{
+        width: 100%;
+        height: auto;
+        display: block;}
+    .section-3 .first-text{
+        width: 80%;
+        height: auto;
+        margin: auto;
+
+    } 
+    .section-3 .first-text h1{
+        font-size: 30px;
+    }  
+    .section-3 .first-text p{
+        width: 100%;
+    }
+    .section-3 .main-service{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .section-3 .main-service .services{
+        width: 100%;
+        height: auto;
+        margin:auto;
+        position: relative;
+    }
+    .services div{
+        width: 80%;
+        height: auto;
+       
+        margin: 20px 50px;}
+
+    .section-4{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .section-4 div:nth-child(4){
+        padding-bottom: 50px;
+    }
+    .section-5{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+    .section-5 .title h1{
+        font-size: 35px;
+        
+
+    }
+    .section-5 .title p{
+        width: 100%;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+    .section-6{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .section-6 .texts h1{
+        font-size: 30px;
+
+    }
+    .section-6 .texts p{
+        width: 80%;
+        margin: auto;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+    .section-6 .row{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        
+    }
+    .section-6 .row .col-4{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;}
+    .section-7{
+        width: 100%;
+        height: auto;
+    }
+    .section-7 .texts h1{
+        font-size: 25px;
+
+    }
+    .section-7 .texts p{
+        width: 80%;
+        margin: auto;
+        line-height: 30px;
+        padding-top: 20px;
+
+    }
+    .section-7 .card{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .section-7 .card .col-5{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .section-7 .card .col-5:hover{
+        background: linear-gradient(to right,#8491ff,#63BBFC);
+        transform: scale(1.02);
+        color: white;
+        
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    footer .main{
+        width: 100%;
+        display: block;
+        margin: auto;
+       padding-left: 100px;
+    }
+    footer .main .foot1:nth-child(1){
+        width: 80%;
+        height: auto;
+        padding: 50px  0;
+    }
+    footer .main .foot1 input{
+        padding: 15px 90px 15px 20px;
+        border: none;
+        outline: none;
+    }
+   .foot1 .input{
+        display: flex;
+        position: relative;
+        display: inline-block;
+    }
+    .inp{
+        display: inline-block;
+    }
+    footer button{
+        margin: 10px;
+        display: inline;
+    }
+   
 }
